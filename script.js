@@ -11,7 +11,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     // بررسی صحت یوزرنیم و پسورد
     if (username === correctUsername && password === correctPassword) {
         // ورود موفقیت‌آمیز، هدایت به صفحه اصلی
-        window.location.href = "welcome.html";
+        window.location.href = "page1.html";
     } else {
         // نمایش پیام خطا
         document.getElementById("errorMessage").style.display = "block";
