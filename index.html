@@ -8,13 +8,16 @@
 </head>
 <body>
     <div class="login-container">
-        <h1>اسم و رمزتو وارد کن تا صفحه بعد رو ببینی!</h1>
+        <h1>اسم و رمزتو وارد کن تا صفحه بعد رو ببینی</h1>
         <form id="loginForm">
             <input type="text" id="username" placeholder="نام کاربری" required>
             <input type="password" id="password" placeholder="رمز عبور" required>
             <button type="submit">ورود</button>
         </form>
-        <p id="errorMessage">نام کاربری یا رمز اشتباه است!</p>
+        <p id="errorMessage" style="display: none; color: red;">نام کاربری یا رمز عبور اشتباه است!</p>
+
+        <!-- دکمه گرفتن اجازه پخش صدا -->
+        <button id="allowAudio">اجازه پخش موزیک 🎵</button>
     </div>
 
     <script src="script.js"></script>
